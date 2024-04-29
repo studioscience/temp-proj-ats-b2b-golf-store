@@ -5,6 +5,13 @@ This repository houses a stylesheet file. Once edited, the stylesheet is publish
 
 Public Link to stylesheet: https://studioscience.github.io/temp-proj-ats-b2b-golf-store/style.css
 
+## Adding to Experience Cloud
+In the HEAD of the experience cloud, incude this line
+
+```
+<link rel="stylesheet" href="https://studioscience.github.io/temp-proj-ats-b2b-golf-store/style.css"/>
+```
+
 ## Content Security Policy
 CSP will need to ALLOW list the published URL.
 
