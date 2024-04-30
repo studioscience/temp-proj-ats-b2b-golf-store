@@ -1,1 +1,14 @@
 /* Stylesheet file */
+.banner-button--white a {
+	border: solid white;
+	background: #1A5532;
+	color: white;
+	padding: 7px 45px;
+}
+.banner-button--white a:hover {
+	cursor: pointer;
+	border: solid white;
+	background: #1A5532;
+	color: white;
+	padding: 7px 45px;
+}
