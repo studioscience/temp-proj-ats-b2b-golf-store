@@ -12,3 +12,18 @@
 	color: white;
 	padding: 7px 45px;
 }
+
+.footer-subscribe {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-subscribe input[type="text"] {
+	border: solid 1px white;
+  background: #1c1c1c;
+  color: #ffffff;
+}
+
+.footer-subscribe input[type="text"]::placeholder {
+  color: #ffffff;
+}
