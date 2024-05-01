@@ -18,12 +18,12 @@
 	flex-direction: column;
 }
 
-.footer-subscribe input[type="text"] {
+.footer-subscribe input[type="email"] {
 	border: solid 1px white;
   background: #1c1c1c;
   color: #ffffff;
 }
 
-.footer-subscribe input[type="text"]::placeholder {
+.footer-subscribe input[type="email"]::placeholder {
   color: #ffffff;
 }
