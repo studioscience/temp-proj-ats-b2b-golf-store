@@ -19,6 +19,18 @@
 	padding-top: 0px;
 }
 
+/* .footer-container {
+
+}
+
+.footer-linked-list-col .col-large-size_3-of-12 {
+
+} */
+
+.footer-button--contact-us {
+	padding: 10px 20px;
+}
+
 .footer-subscribe {
 	display: flex;
 	flex-direction: column;
