@@ -13,6 +13,12 @@
 	padding: 7px 45px;
 }
 
+
+/* Footer */
+.footer-linked-list ul li:first-child {
+	padding-top: 0px;
+}
+
 .footer-subscribe {
 	display: flex;
 	flex-direction: column;
