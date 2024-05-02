@@ -28,7 +28,8 @@
 } */
 
 .footer-button--contact-us a {
-	padding: 10px 20px;
+	padding: 10px 40px;
+  font-size: 14px !important;
 }
 
 .footer-subscribe {
