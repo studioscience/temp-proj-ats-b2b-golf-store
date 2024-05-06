@@ -7,12 +7,10 @@
 }
 
 .order-list-table p, .quotes-list-table p {
-	font-weight: 600;
+	font-weight: 600 !important;
 }
 
-
 /* Banner */
-
 .banner-button--white {
 	width: 225px;
 }
