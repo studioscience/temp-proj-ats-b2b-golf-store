@@ -1,0 +1,35 @@
+.banner-button--white {
+	width: 225px;
+}
+.banner-button--white a {
+	border: solid white;
+	background: #1A5532;
+	color: white;
+}
+.banner-button--white a:hover {
+	cursor: pointer;
+	border: solid white;
+	background: #1A5532;
+	color: white;
+}
+
+/* Footer */
+.footer-button--contact-us a {
+	padding: 0px 60px;
+  font-size: 14px !important;
+}
+
+.footer-subscribe {
+	display: flex;
+	flex-direction: column;
+}
+
+.footer-subscribe input[type="email"] {
+	border: solid 1px white;
+  background: #1c1c1c;
+  color: #ffffff;
+}
+
+.footer-subscribe input[type="email"]::placeholder {
+  color: #ffffff;
+}
