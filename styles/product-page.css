@@ -13,6 +13,10 @@
   padding-left: 10px;
 }
 
+.product-page-search-input input::placeholder {
+	font-weight: 300;
+}
+
 .product-pricing-details {
 	justify-content: flex-start;
 }
