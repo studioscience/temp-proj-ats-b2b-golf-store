@@ -3,7 +3,9 @@
 }
 
 /* Mobile */
-
+.mobile-commerce-header .header-navigation {
+	margin-right: 15px;
+}
 .product-page-search-input .input-wrapper {
 	border-right: none !important;
 }
