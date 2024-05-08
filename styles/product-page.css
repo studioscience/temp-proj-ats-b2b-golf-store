@@ -5,7 +5,7 @@
 /* Mobile */
 
 .product-page-search-input .input-wrapper {
-	border-right: none;
+	border-right: none !important;
 }
 
 .product-page-search-input button {
