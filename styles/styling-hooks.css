@@ -1,0 +1,10 @@
+:host {
+	/* Colors */
+	--ats-brand-primary-gray-1: #3A3A3A;
+	--ats-brand-primary-gray-2: #E6E6E6;
+	--ats-brand-secondary-yellow: #FFF0D1;
+	--ats-brand-selection-color: #924F00;
+
+	/* Font */
+	--ats-brand-primary-font-family: 'Open Sans';
+}
