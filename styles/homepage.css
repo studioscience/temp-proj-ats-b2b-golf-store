@@ -1,11 +1,4 @@
 /* Order status tables */
-.order-list-table--pills {
-	background: #E6E6E6;
-  border-radius: 12px;
-  text-align: center;
-  padding: 6px 7px !important;
-}
-
 .order-list-table p, .quotes-list-table p {
 	font-weight: 600 !important;
 }
