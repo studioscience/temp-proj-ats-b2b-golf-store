@@ -2,9 +2,23 @@
 .badge-grey {
 	--slds-c-badge-color-background: var(--ats-brand-primary-gray-2);
 	--slds-c-badge-text-color: var(--ats-brand-primary-gray-1);
+	font-weight: 600;
 }
 
-.badge-yellow {
-	--slds-c-badge-color-background: var(--ats-brand-secondary-yellow);
-	--slds-c-badge-text-color: var(--ats-brand-selection-color);
+.badge-pending {
+	--slds-c-badge-color-background: var(--ats-pill-yellow);
+	--slds-c-badge-text-color: var(--ats-brand-red);
+	font-weight: 600;
+}
+
+.badge-complete {
+	--slds-c-badge-color-background: var(--ats-pill-yellow-2);
+	--slds-c-badge-text-color: var(--ats-brand-red);
+	font-weight: 600;
+}
+
+.badge-warning {
+	--slds-c-badge-color-background: var(--ats-pill-red-background);
+	--slds-c-badge-text-color: var(--ats-pill-red-2);
+	font-weight: 600;
 }
