@@ -1,7 +1,7 @@
 /* Badges */
 .badge-grey {
 	--slds-c-badge-color-background: var(--ats-brand-primary-gray-2);
-	--slds-c-badge-text-color: var(--ats-brand-primary-gray-2);
+	--slds-c-badge-text-color: var(--ats-brand-primary-gray-1);
 }
 
 .badge-yellow {
