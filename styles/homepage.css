@@ -1,6 +1,7 @@
 /* Homepage tables */
 .order-list-table .list-container {
   border-top: 1px solid var(--ats-brand-primary-gray-2);
+	padding-top: 15px;
 }
 .order-list-table p, .quotes-list-table p {
 	font-weight: 600 !important;
