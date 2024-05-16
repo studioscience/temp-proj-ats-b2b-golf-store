@@ -23,3 +23,9 @@
 	--slds-c-badge-color-background: var(--ats-pill-red-background);
 	--slds-c-badge-text-color: var(--ats-pill-red-2);
 }
+
+/* Horizontal line */
+.horizontal-line--margin {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
