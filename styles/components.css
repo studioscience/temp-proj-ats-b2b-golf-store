@@ -1,3 +1,8 @@
+/* Navigation */
+div[name="header"] {
+	background-color: var(--ats-brand-white);
+}
+
 /* Badges */
 .slds-badge {
 	padding: 6px 12px;
