@@ -3,12 +3,12 @@ div[name="header"] {
 	background-color: var(--ats-brand-white);
 }
 
-.nav-links {
+.navbar-links {
 	display: flex;
 	justify-content: center;
 }
 
-.nav-links .column-content:not(:last-child) {
+.navbar-links .col-large-size_4-of-12:not(:last-child) {
 	border-right: 1px solid var(--ats-brand-primary-gray-2);
 }
 
