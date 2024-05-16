@@ -12,6 +12,10 @@ div[name="header"] {
 	border-right: 1px solid var(--ats-brand-primary-gray-2);
 }
 
+.navbar-tabs {
+	border-bottom: 1px solid var(--ats-brand-primary-gray-2);
+}
+
 /* Badges */
 .slds-badge {
 	padding: 6px 12px;
