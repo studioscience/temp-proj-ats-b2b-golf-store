@@ -3,6 +3,10 @@ div[name="header"] {
 	background-color: var(--ats-brand-white);
 }
 
+.navbar-site-logo .logo-anchor {
+	justify-content: center;
+}
+
 .navbar-links {
 	display: flex;
 	justify-content: center;
