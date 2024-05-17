@@ -4,7 +4,7 @@ div[name="header"] {
 }
 
 .navbar-site-logo .logo-anchor {
-	justify-content: center;
+	justify-content: center !important;
 }
 
 .navbar-links {
