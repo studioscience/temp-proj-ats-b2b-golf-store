@@ -22,12 +22,12 @@ div[name="header"] {
 
 /* Navbar Search */
 .navigation-search .input-wrapper {
-	border-right: none;
+	border-right: none !important;
 }
 
 .navigation-search .input-container,
 .navigation-search .input-search-button {
-	height: 44px
+	height: 44px !important;
 }
 
 /* Badges */
