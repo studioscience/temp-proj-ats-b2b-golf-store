@@ -35,6 +35,12 @@ div[name="header"] {
   margin-right: 20px;
 }
 
+.navbar-cart-icon::after {
+  content: "My Cart";
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
 /* Badges */
 .slds-badge {
 	padding: 6px 12px;
