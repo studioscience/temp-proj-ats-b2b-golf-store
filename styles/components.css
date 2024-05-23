@@ -30,6 +30,11 @@ div[name="header"] {
 	font-weight: 600;
 }
 
+.navbar-cart-icon .slds-icon,
+.navbar-profile-menu .slds-icon {
+	fill: var(--ats-brand-black)
+}
+
 .navbar-cart-icon::after {
   content: "My Cart";
 	font-size: .875rem;
