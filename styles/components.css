@@ -25,9 +25,15 @@ div[name="header"] {
   margin-right: 20px;
 }
 
+.navbar-profile-menu {
+	font-size: .875rem;
+	font-weight: 600;
+}
+
 .navbar-cart-icon::after {
   content: "My Cart";
-	font-size: 14px;
+	font-size: .875rem;
+	font-weight: 600;
   margin-left: 5px;
   vertical-align: middle;
 }
