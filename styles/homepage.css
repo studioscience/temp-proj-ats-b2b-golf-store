@@ -26,6 +26,14 @@
 	color: white;
 }
 
+.banner-landscape {
+	padding: 0;
+}
+
+.banner-landscape .columns-content {
+	max-width: max-content;
+}
+
 /* Footer */
 .footer-button--contact-us a {
 	padding: 0px 60px;
