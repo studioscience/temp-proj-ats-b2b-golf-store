@@ -21,16 +21,16 @@ div[name="header"] {
 }
 
 /* Navbar Search */
-.navigation-search .input-wrapper {
+.navbar-search .input-wrapper {
 	border-right: none !important;
 }
 
-.navigation-search .input-container,
-.navigation-search .input-search-button {
+.navbar-search .input-container,
+.navbar-search .input-search-button {
 	height: 44px !important;
 }
 
-.navigation-profile-menu .slds-dropdown-trigger {
+.navbar-profile-menu .slds-dropdown-trigger {
 	justify-content: flex-end;
   margin-right: 20px;
 }
