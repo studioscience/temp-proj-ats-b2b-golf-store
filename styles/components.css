@@ -46,6 +46,9 @@ div[name="header"] {
 .navbar-quote {
 	justify-content: center;
 }
+.col-size_12-of-12:has(.navbar-quote) {
+	max-width: max-content;
+}
 
 /* Navbar Search */
 .navbar-search .input-wrapper {
