@@ -27,11 +27,11 @@
 }
 
 .banner-landscape {
-	padding: 0;
+	padding: 0 !important;
 }
 
 .banner-landscape .columns-content {
-	max-width: max-content;
+	max-width: max-content !important;
 }
 
 /* Footer */
