@@ -26,7 +26,7 @@ div[name="header"] {
 }
 
 .navbar-profile-menu .menu-trigger-p {
-	font-size: .875rem;
+	font-size: .875rem !important;
 	font-weight: 600;
 }
 
