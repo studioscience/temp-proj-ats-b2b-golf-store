@@ -20,6 +20,22 @@ div[name="header"] {
 	border-bottom: 1px solid var(--ats-brand-primary-gray-2);
 }
 
+.navbar-profile-menu .slds-dropdown-trigger {
+	justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.navbar-cart-icon::after {
+  content: "My Cart";
+	font-size: 14px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.navbar-quote {
+	justify-content: center;
+}
+
 /* Navbar Search */
 .navbar-search .input-wrapper {
 	border-right: none !important;
@@ -30,16 +46,16 @@ div[name="header"] {
 	height: 44px !important;
 }
 
-.navbar-profile-menu .slds-dropdown-trigger {
-	justify-content: flex-end;
-  margin-right: 20px;
+.navbar-search .input-search-button {
+	padding: 0 12px;
 }
 
-.navbar-cart-icon::after {
-  content: "My Cart";
-  margin-left: 5px;
-  vertical-align: middle;
+.navbar-search svg {
+	min-width: 24px;
+	transform: rotate(90deg);
 }
+
+
 
 /* Badges */
 .slds-badge {
