@@ -3,26 +3,13 @@
 	text-decoration: none !important;
 }
 
-/* .cart-summary .subtotal-price,
-.cart-summary ,
-.cart-summary .promotion-price,
-.cart-summary .tax-price {
+.cart-summary .subtotal-price dd,
+.cart-summary .shipping-price dd,
+.cart-summary .promotion-price dd,
+.cart-summary .tax-price dd {
 	color: var(--Sonos-Palette-Black);
 	font-feature-settings: 'clig' off, 'liga' off;
 	font-family: var(--ats-brand-primary-font-family);
 	font-size: 1.125rem;
 	font-weight: 600;
-} */
-
-.cart-summary {
-	.subtotal-price,
-	.shipping-price,
-	.promotion-price,
-	.tax-price {
-		color: var(--Sonos-Palette-Black);
-		font-feature-settings: 'clig' off, 'liga' off;
-		font-family: var(--ats-brand-primary-font-family);
-		font-size: 1.125rem;
-		font-weight: 600;
-	}
 }
