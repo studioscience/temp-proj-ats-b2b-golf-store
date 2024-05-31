@@ -7,7 +7,7 @@
 .cart-summary .shipping-price dd,
 .cart-summary .promotion-price dd,
 .cart-summary .tax-price dd {
-	color: var(--Sonos-Palette-Black);
+	color: var(--Sonos-Palette-Black) !important;
 	font-feature-settings: 'clig' off, 'liga' off;
 	font-family: var(--ats-brand-primary-font-family);
 	font-size: 1.125rem !important; 
