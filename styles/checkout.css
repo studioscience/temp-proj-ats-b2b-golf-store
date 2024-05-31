@@ -2,10 +2,27 @@
 	font-size: 1.5rem;
 	text-decoration: none !important;
 }
-/* .checkout-coupon-input {
 
-} 
+/* .cart-summary .subtotal-price,
+.cart-summary ,
+.cart-summary .promotion-price,
+.cart-summary .tax-price {
+	color: var(--Sonos-Palette-Black);
+	font-feature-settings: 'clig' off, 'liga' off;
+	font-family: var(--ats-brand-primary-font-family);
+	font-size: 1.125rem;
+	font-weight: 600;
+} */
 
-.checkout-shipping-address {
-
-}*/
+.cart-summary {
+	.subtotal-price,
+	.shipping-price,
+	.promotion-price,
+	.tax-price {
+		color: var(--Sonos-Palette-Black);
+		font-feature-settings: 'clig' off, 'liga' off;
+		font-family: var(--ats-brand-primary-font-family);
+		font-size: 1.125rem;
+		font-weight: 600;
+	}
+}
