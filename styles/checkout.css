@@ -10,6 +10,6 @@
 	color: var(--Sonos-Palette-Black);
 	font-feature-settings: 'clig' off, 'liga' off;
 	font-family: var(--ats-brand-primary-font-family);
-	font-size: 1.125rem;
-	font-weight: 600;
+	font-size: 1.125rem !important; 
+	font-weight: 600 !important;
 }
