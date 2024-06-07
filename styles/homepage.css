@@ -38,6 +38,10 @@
 	color: var(--ats-brand-primary-green);
 }
 
+.banner-external-link img {
+	margin-top: -6px;
+}
+
 /* Footer */
 .footer-button--contact-us a {
 	padding: 0px 60px;
