@@ -1,0 +1,11 @@
+.button-create-an-account {
+	text-decoration: underline;
+}
+
+.banner-list-item li {
+	padding-left: 0px;
+}
+
+.banner-list-item li::before {
+	width: 7px;
+}
