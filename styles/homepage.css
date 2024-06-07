@@ -34,6 +34,10 @@
 	max-width: max-content !important;
 }
 
+.banner-external-link {
+	color: var(--ats-brand-primary-green);
+}
+
 /* Footer */
 .footer-button--contact-us a {
 	padding: 0px 60px;
