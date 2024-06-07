@@ -3,9 +3,9 @@
 }
 
 .banner-list-item li {
-	padding-left: 0px;
+	padding-left: 0px !important;
 }
 
 .banner-list-item li::before {
-	width: 7px;
+	width: 7px !important;
 }
