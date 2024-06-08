@@ -9,3 +9,9 @@
 .banner-list-item li::before {
 	width: 7px !important;
 }
+
+.shop-by-industry-banner .main-content-container {
+	border-radius: 5px;
+	background: linear-gradient(180deg, rgba(26, 85, 50, 0.00) 0%, #1A5532 77.9%);
+	box-shadow: 0px 4px 23.3px 8px rgba(0, 0, 0, 0.10);
+}
