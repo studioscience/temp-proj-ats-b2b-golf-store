@@ -107,8 +107,17 @@ div[name="header"] {
 	background: none !important;
 }
 
-.slds-nav-vertical__action .slds-is-active .slds-nav-vertical__action {
+.ats-navigation-list-menu .slds-nav-vertical__action .slds-is-active,
+.ats-navigation-list-menu .slds-nav-vertical__action:hover,
+.ats-navigation-list-menu .slds-nav-vertical__item.slds-is-active .slds-nav-vertical__action
+.ats-navigation-list-menu .slds-nav-vertical__item.slds-is-active .slds-nav-vertical__action:focus {
 	box-shadow: none;
+}
+
+.ats-navigation-list-menu .slds-is-active a {
+	border-bottom: 2px solid var(--ats-brand-black);
+  width: fit-content;
+  padding-right: 0px;
 }
 
 .ats-navigation-list-menu a {
