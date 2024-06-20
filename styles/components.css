@@ -117,9 +117,9 @@ div[name="header"] {
 .ats-navigation-list-menu .slds-is-active a {
 	border-bottom: 2px solid var(--ats-brand-black);
   width: fit-content;
-  padding-right: 0px;
+	box-shadow: none !important;
 }
 
 .ats-navigation-list-menu a {
-	padding-left: 0px;
+	padding: 6px 0px;
 }
