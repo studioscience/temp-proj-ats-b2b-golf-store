@@ -100,3 +100,17 @@ div[name="header"] {
 	margin-bottom: 10px;
 	margin-top: 10px;
 }
+
+/* Navigation List Menu */
+/* Overriding OOTB styles */
+.ats-navigation-list-menu .slds-is-active::before {
+	background: none !important;
+}
+
+.slds-nav-vertical__action .slds-is-active .slds-nav-vertical__action {
+	box-shadow: none;
+}
+
+.ats-navigation-list-menu a {
+	padding-left: 0px;
+}
