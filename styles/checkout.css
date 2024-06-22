@@ -32,7 +32,7 @@
 	border-radius: 2px;
 }
 
-.ats-checkout-shipping-address > .slds-col {
+.ats-checkout-shipping-address .slds-col:not(.slds-col .slds-col) {
 	border: 1px solid var(--ats-brand-primary-gray-3);
 	padding: 20px;
 }
