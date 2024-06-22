@@ -13,3 +13,12 @@
 	font-size: 1.125rem !important; 
 	font-weight: 600 !important;
 }
+
+.ats-checkout-shipping-address .slds-form-element .slds-grid {
+	flex-direction: row;
+	gap: 20px;
+}
+
+.ats-checkout-shipping-address .card-address-fit .slds-col:first-child {
+	font-weight: 600;
+}
