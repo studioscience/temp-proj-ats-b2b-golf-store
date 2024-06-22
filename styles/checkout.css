@@ -45,3 +45,7 @@
 	font-weight: 600;
 }
 
+/* Dual payment */
+.ats-dual-payment .cardpayment {
+	width: 70%;
+}
