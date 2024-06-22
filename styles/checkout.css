@@ -15,9 +15,9 @@
 }
 
 /* Shipping address */
-.ats-checkout-shipping-address .radio-container {
+/* .ats-checkout-shipping-address .radio-container {
 	display: none;
-}
+} */
 
 .ats-checkout-shipping-address .slds-form-element .slds-grid {
 	flex-direction: row;
@@ -35,6 +35,10 @@
 .ats-checkout-shipping-address .slds-col:not(.slds-col .slds-col) {
 	border: 1px solid var(--ats-brand-primary-gray-3);
 	padding: 20px;
+}
+
+.ats-checkout-shipping-address .slds-col:not(:has(.slds-badge))  {
+	background-color: #FBFBFB;
 }
 
 .ats-checkout-shipping-address .card-address-fit .slds-col:first-child {
