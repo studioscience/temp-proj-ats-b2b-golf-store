@@ -15,10 +15,6 @@
 }
 
 /* Shipping address */
-/* .ats-checkout-shipping-address .radio-container {
-	display: none;
-} */
-
 .ats-checkout-shipping-address .slds-form-element .slds-grid {
 	flex-direction: row;
 	gap: 20px;
@@ -45,7 +41,13 @@
 	font-weight: 600;
 }
 
+.ats-checkout-shipping-address div[name="shipping-address"] {
+	border: none;
+	text-decoration: underline;
+	color: var(--ats-brand-black);
+}
+
 /* Dual payment */
-.ats-dual-payment .cardpayment {
-	width: 70%;
+.ats-shipping-instructions {
+
 }
