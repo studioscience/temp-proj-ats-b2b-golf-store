@@ -41,13 +41,14 @@
 	font-weight: 600;
 }
 
-.ats-checkout-shipping-address div[name="shipping-address"] button {
+.ats-checkout-shipping-address div[name="shipping-address"] button,
+.ats-checkout-shipping-address div[name="shipping-address"] button:hover {
 	border: none;
 	text-decoration: underline;
 	color: var(--ats-brand-black);
 }
 
 /* Dual payment */
-.ats-shipping-instructions {
-
+.ats-dual-payment .cardpayment {
+	width: 70%;
 }
