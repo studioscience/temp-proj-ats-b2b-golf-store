@@ -41,7 +41,7 @@
 	font-weight: 600;
 }
 
-.ats-checkout-shipping-address div[name="shipping-address"] {
+.ats-checkout-shipping-address div[name="shipping-address"] button {
 	border: none;
 	text-decoration: underline;
 	color: var(--ats-brand-black);
