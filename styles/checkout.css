@@ -46,6 +46,8 @@
 	border: none;
 	text-decoration: underline;
 	color: var(--ats-brand-black);
+	padding: 0px;
+	background: none;
 }
 
 /* Dual payment */
