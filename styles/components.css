@@ -123,3 +123,8 @@ div[name="header"] {
 .ats-navigation-list-menu a {
 	padding: 6px 0px;
 }
+
+/* Headers */
+.header-border-bottom {
+	border-bottom: 1px solid var(--ats-brand-primary-gray-4);
+}
