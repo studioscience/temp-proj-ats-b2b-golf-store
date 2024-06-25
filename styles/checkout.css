@@ -57,7 +57,7 @@
 }
 
 /* Dual payment */
-@media screen (width >= 48em) {
+@media (width >= 48em) {
 	.ats-dual-payment .cardpayment {
 		width: 70%;
 	}
