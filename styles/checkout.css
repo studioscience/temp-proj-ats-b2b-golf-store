@@ -51,14 +51,14 @@
 	background: none;
 }
 
-/* Checkout */
-.ats-checkout-section {
-	
-}
 
 /* Dual payment */
 @media (width >= 48em) {
-	.ats-dual-payment .cardpayment {
+	.ats-dual-payment .accordion-container {
 		width: 70%;
+	}
+
+	.ats-dual-payment .accordion-content {
+		padding: var(--dxp-g-spacing-large) 0px;
 	}
 }
