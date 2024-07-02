@@ -15,12 +15,40 @@
 }
 
 /* Shipping address */
+.ats-checkout-shipping-address .slds-form-element .slds-grid {
+	flex-direction: row;
+	gap: 20px;
+	margin-left: 1px;
+}
+
 .ats-checkout-shipping-address .slds-radio__label {
 	cursor: pointer;
 }
 
 .ats-checkout-shipping-address .slds-badge {
 	border-radius: 2px;
+}
+
+.ats-checkout-shipping-address .slds-col:not(.slds-col .slds-col) {
+	border: 1px solid var(--ats-brand-primary-gray-3);
+	padding: 20px;
+}
+
+.ats-checkout-shipping-address .slds-col:not(:has(.slds-badge))  {
+	background-color: #FBFBFB;
+}
+
+.ats-checkout-shipping-address .card-address-fit .slds-col:first-child {
+	font-weight: 600;
+}
+
+.ats-checkout-shipping-address div[name="shipping-address"] button,
+.ats-checkout-shipping-address div[name="shipping-address"] button:hover {
+	border: none;
+	text-decoration: underline;
+	color: var(--ats-brand-black);
+	padding: 0px;
+	background: none;
 }
 
 
