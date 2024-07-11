@@ -2,6 +2,17 @@
 	width: 296px;
 }
 
+
+/* Product container */
+.ats-product-container {
+
+}
+
+.ats-product-title {
+	font-size: 32px;
+	font-weight: 400;
+}
+
 .ats-product-pricing-details .main-price {
 	font-weight: 400;
 }
