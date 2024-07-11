@@ -2,6 +2,10 @@
 	width: 296px;
 }
 
+.ats-product-pricing-details .main-price {
+	font-weight: 400;
+}
+
 /* Mobile */
 .mobile-commerce-header .header-navigation {
 	margin-right: 15px;
