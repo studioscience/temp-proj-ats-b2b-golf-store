@@ -1,0 +1,119 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+
+    <mj-style>
+      * {
+        line-height: 1.5;
+        font-weight: 400;
+        font-size: 20px;
+        font-family: 'Open Sans';
+      }
+
+      h1 {
+        font-size: 40px;
+      }
+
+      h2 {
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFFFFF" width="800px">
+    <!-- Navbar -->
+    <mj-section>
+      <mj-column border-bottom="1px solid #D2D2D2">
+        <mj-image align="left" width="182px" src="https://www.advancedturf.com/wp-content/uploads/2024/02/ATS_Logo_nogolfball_320x100.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Header -->
+    <mj-section>
+      <mj-column width="75%">
+        <mj-text align="center">
+          <h1>{!Contact.Email}</h1>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Banner -->
+    <mj-section>
+      <mj-column>
+        <mj-image src="https://www.advancedturf.com/wp-content/uploads/2024/05/golf-course.jpeg" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <!-- List -->
+    <mj-section>
+      <mj-column width="75%">
+        <mj-text>
+          <ul>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</li>
+          </ul>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Column images -->
+    <mj-section padding-bottom="100px">
+      <mj-column>
+        <mj-image width="137px" height="185px" padding="0" src="https://mjml.io/assets/img/easy-and-quick.png" />
+        <mj-text align="left">
+          <h2>Easy and quick</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image width="166px" height="185px" padding="0" src="https://mjml.io/assets/img/responsive.png" />
+        <mj-text align="left">
+          <h2>Responsive</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-image width="166px" height="185px" padding="0" src="https://mjml.io/assets/img/responsive.png" />
+        <mj-text align="left">
+          <h2>Responsive</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Footer -->
+    <mj-section padding-top="50px" padding-bottom="20px" background-color="#232323">
+      <mj-column>
+        <mj-text font-weight="bold" color="#FFFFFF" align="center">
+          Stay in touch!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0px" padding-bottom="100px" background-color="#232323">
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-Facebook.png" alt="" />
+      </mj-column>
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-X.png" alt="" />
+      </mj-column>
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-Instagram.png" alt="" />
+      </mj-column>
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-Linked-In.png" alt="" />
+      </mj-column>
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-YouTube.png" alt="" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

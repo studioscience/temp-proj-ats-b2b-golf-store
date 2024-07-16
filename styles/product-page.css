@@ -4,8 +4,8 @@
 
 
 /* Product container */
-.ats-product-container {
-
+.ats-product-container .column-content:nth-child(2){
+	max-width: 60%;
 }
 
 .ats-product-title .dxp-text-heading-large {

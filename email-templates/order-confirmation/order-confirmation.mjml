@@ -1,0 +1,257 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Open Sans" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+    <mj-style>
+      * {
+
+        font-size: 20px;
+        font-family: 'Open Sans';
+      }
+
+      h1 {
+        font-size: 40px;
+
+      }
+
+      h2 {
+        font-size: 28px;
+        font-weight: 500;
+
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 1.5;
+      }
+
+      .container {
+        width: 650px;
+      }
+
+      .cart-totals {
+        font-size: 20px;
+        font-weight: 300;
+      }
+
+      .cart-border-top {
+        border-top: 1px solid #D2D2D2;
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFFFFF" width="800px">
+    <!-- Navbar -->
+    <mj-section>
+      <mj-column border-bottom="1px solid #D2D2D2">
+        <mj-image align="left" width="182px" src="https://www.advancedturf.com/wp-content/uploads/2024/02/ATS_Logo_nogolfball_320x100.png" alt="" />
+      </mj-column>
+    </mj-section>
+
+    <!-- Header -->
+    <mj-section background-color="rgba(197, 222, 170, 0.15);">
+      <mj-column width="75%">
+        <mj-text font-family="OpenSans" align="center">
+          <h1>Thank you for your order!</h1>
+          <h3>Order Number: {!Order.Number}</h3>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        </mj-text>
+        <mj-button background-color="rgba(197, 222, 170, 0.15)" border="1px solid #1A5532" color="#1A5532" width="600px">
+          View your order
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <!-- Cart header -->
+    <mj-wrapper css-class="container">
+      <mj-section padding-top="0" padding-bottom="0">
+        <mj-column>
+          <mj-text padding-top="0" padding-bottom="0">
+            <h2>Order Summary</h2>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-text>
+            <div>Products</div>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right">
+            <div style="font-size: 14px;">Quantity ({!WebCart.TotalProductCount})</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#D2D2D2" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Start of cart line item -->
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column width="150px">
+          <mj-image align="left" width="150px" height="150px" padding="0" src="https://mjml.io/assets/img/responsive.png" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="left">
+            <div style="font-size: 24px; font-weight: 700">{!Cart.Item1}</div>
+            <p style="font-size: 14px; color: #3A3A3A; font-weight: 400">2.5 gallons</p>
+          </mj-text>
+          <!-- <mj-text align="left">
+            <p style="font-size: 14px; color: #3A3A3A; font-weight: 400">Ships: {!Order.ShipDate}</p>
+          </mj-text> -->
+        </mj-column>
+        <mj-column padding="0">
+          <mj-text padding-right="0" align="right">
+            <div style="font-size: 24px; font-weight: 700">$218.40</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#D2D2D2" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column width="150px">
+          <mj-image align="left" width="150px" height="150px" padding="0" src="https://mjml.io/assets/img/responsive.png" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="left">
+            <div style="font-size: 24px; font-weight: 700">{!Cart.Item2}</div>
+            <p style="font-size: 14px; color: #3A3A3A; font-weight: 400">2.5 gallons</p>
+          </mj-text>
+          <!-- <mj-text align="left">
+            <p style="font-size: 14px; color: #3A3A3A; font-weight: 400">Ships: {!Order.ShipDate}</p>
+          </mj-text> -->
+        </mj-column>
+        <mj-column padding="0">
+          <mj-text padding-right="0" align="right">
+            <div style="font-size: 24px; font-weight: 700">$218.40</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#D2D2D2" />
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column width="150px">
+          <mj-image align="left" width="150px" height="150px" padding="0" src="https://mjml.io/assets/img/responsive.png" />
+        </mj-column>
+        <mj-column>
+          <mj-text align="left">
+            <div style="font-size: 24px; font-weight: 700">{!Cart.Item3}</div>
+            <p style="font-size: 14px; color: #3A3A3A; font-weight: 400">2.5 gallons</p>
+          </mj-text>
+          <!-- <mj-text align="left">
+            <p style="font-size: 14px; color: #3A3A3A; font-weight: 400">Ships: {!Order.ShipDate}</p>
+          </mj-text> -->
+        </mj-column>
+        <mj-column padding="0">
+          <mj-text padding-right="0" align="right">
+            <div style="font-size: 24px; font-weight: 700">$218.40</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding-top="0px" padding-bottom="0px">
+        <mj-column>
+          <mj-divider border-width="1px" border-style="solid" border-color="#D2D2D2" />
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Cart Subtotal -->
+    <mj-wrapper padding="0px" css-class="container">
+      <mj-section padding="0px">
+        <mj-column>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="cart-totals">
+            <div class="cart-totals">Subtotal:</div>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right" css-class="cart-totals">
+            <div>$407.40</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="cart-totals">
+            <div class="cart-totals">Subtotal:</div>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right" css-class="cart-totals">
+            <div>$32.59</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+      <mj-section padding="0px">
+        <mj-column>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="cart-totals">
+            <div style="color: #737373" class="cart-totals">Promo:</div>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right" css-class="cart-totals">
+            <div style="color: #737373;">-$174.60</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-section padding-top="10px" padding="0px" padding-bottom="100px">
+        <mj-column>
+        </mj-column>
+        <mj-column>
+          <mj-text css-class="cart-totals">
+            <div style="font-weight: 700;" class="cart-totals">Total:</div>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+          <mj-text align="right" css-class="cart-totals">
+            <div style="font-weight: 700;">$439.99</div>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+
+    <!-- Footer -->
+    <mj-section padding-top="100px" padding-bottom="20px" background-color="#232323">
+      <mj-column>
+        <mj-text font-weight="bold" color="#FFFFFF" align="center">
+          Stay in touch!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0px" padding-bottom="100px" background-color="#232323">
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-Facebook.png" alt="" />
+      </mj-column>
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-X.png" alt="" />
+      </mj-column>
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-Instagram.png" alt="" />
+      </mj-column>
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-Linked-In.png" alt="" />
+      </mj-column>
+      <mj-column width="100px">
+        <mj-image width="33px" src="https://www.advancedturf.com/wp-content/uploads/2024/04/50x50-Green-ATS-Social-Media-Icon-YouTube.png" alt="" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
