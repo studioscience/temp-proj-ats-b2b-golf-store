@@ -1,5 +1,5 @@
 /* Product grid */
-.product-card-grid .image-container{
+.product-card-grid .image-container img {
 	max-height: 275px;
 }
 
