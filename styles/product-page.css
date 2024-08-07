@@ -3,6 +3,10 @@
 	max-height: 275px;
 }
 
+.product-card-grid .image-container h3 {
+	font-size: 20px;
+}
+
 
 
 /* Product detail page */
