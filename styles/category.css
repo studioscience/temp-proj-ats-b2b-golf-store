@@ -1,7 +1,30 @@
 .category-banner .column-content:first-child{
-	padding-left: 120px;
+	padding-left: 60px;
+	padding-right: 60px;
 }
 
 .category-banner-paragraph {
 	padding-right: 180px;
+}
+
+/* Banner breakpoints */
+@media (width >= 1200px) {
+	.category-banner .column-content:first-child{
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+}
+
+@media (width >= 1024px) {
+	.category-banner .column-content:first-child{
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+}
+
+@media (width >= 768px) {
+	.category-banner .column-content:first-child{
+		padding-left: 60px;
+		padding-right: 60px;
+	}
 }
