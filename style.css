@@ -1,6 +1,7 @@
 /* Stylesheet file */
 @import url('./styles/styling-hooks.css');
 @import url('./styles/layout.css');
+@import url('./styles/my-profile.css');
 @import url('./styles/components.css');
 @import url('./styles/homepage.css');
 @import url('./styles/unauthenticated-homepage.css');
