@@ -69,32 +69,6 @@ div[name="header"] {
 	transform: rotate(90deg);
 }
 
-/* Badges */
-.slds-badge {
-	padding: 6px 12px;
-	border: transparent;
-	font-weight: 600;
-}
-.badge-grey {
-	--slds-c-badge-color-background: var(--ats-brand-primary-gray-2);
-	--slds-c-badge-text-color: var(--ats-brand-primary-gray-1);
-}
-
-.badge-pending {
-	--slds-c-badge-color-background: var(--ats-pill-yellow);
-	--slds-c-badge-text-color: var(--ats-brand-red);
-}
-
-.badge-complete {
-	--slds-c-badge-color-background: var(--ats-pill-yellow-2);
-	--slds-c-badge-text-color: var(--ats-brand-red);
-}
-
-.badge-warning {
-	--slds-c-badge-color-background: var(--ats-pill-red-background);
-	--slds-c-badge-text-color: var(--ats-pill-red-2);
-}
-
 /* Horizontal line */
 .horizontal-line--margin {
 	margin-bottom: 10px;
