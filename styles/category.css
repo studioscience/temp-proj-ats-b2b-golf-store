@@ -1,19 +1,4 @@
-/* Hide the existing chevron icon within filter-panel */
-.filter-panel lightning-primitive-icon[data-key="chevrondown"] svg path {
-    display: none; /* Hides the chevron */
-}
 
-/* Add a plus sign as a pseudo-element */
-.filter-panel lightning-primitive-icon[data-key="chevrondown"] svg::before {
-    content: '+'; /* The plus sign */
-    font-size: 24px; /* Adjust the size */
-    display: inline-block;
-    text-align: center;
-    width: 100%; /* Centers it horizontally */
-    height: 100%; /* Centers it vertically */
-    color: inherit; /* Inherits the current color */
-    line-height: 1; /* Ensures proper vertical alignment */
-}
 
 .category-banner .column-content:first-child{
 	padding-left: 60px;
