@@ -1,16 +1,50 @@
-/* Product grid */
+/* Align items in the grid */
 .product-card-grid .slds-wrap {
-	align-items: flex-end;
+    display: flex; /* Ensure flexbox layout for alignment */
+    flex-wrap: wrap; /* Allow wrapping of items */
+    gap: 1rem; /* Add spacing between grid items */
+    align-items: stretch; /* Align items to stretch equally */
+    justify-content: space-between; /* Distribute space between items */
 }
 
-.product-card-grid .image-container img {
-	max-height: 275px;
+/* Style individual product cards */
+.product-card-grid .slds-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensure equal spacing within the card */
+    text-align: center; /* Center-align content */
+    height: 100%; /* Ensure all cards have the same height */
 }
 
-.product-card-grid .image-container h3 {
-	font-size: 20px;
+/* Adjust product image */
+.product-card-grid .slds-col img {
+    max-height: 150px; /* Set consistent image height */
+    object-fit: contain; /* Ensure image fits without distortion */
+    margin-bottom: 0.5rem; /* Add spacing below image */
 }
 
+/* Product name */
+.product-card-grid .slds-col h2, 
+.product-card-grid .slds-col .product-name {
+    margin-bottom: 0.5rem; /* Add spacing below name */
+    font-weight: bold;
+    min-height: 3rem; /* Ensure alignment even for wrapped names */
+}
+
+/* Pricing or action text */
+.product-card-grid .slds-col .product-pricing {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: var(--ATS-Brand-Black, #000);
+}
+
+/* View product button */
+.product-card-grid .slds-col button {
+    margin-top: auto; /* Push the button to the bottom */
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
 
 
 /* Product detail page */
