@@ -1,60 +1,16 @@
-/* Product grid container */
+/* Product grid */
 .product-card-grid .slds-wrap {
-    align-items: stretch; /* Stretch items to equal height */
-    gap: 1.5rem; /* Add consistent spacing between cards */
-    justify-content: space-between; /* Distribute items evenly */
+	align-items: flex-end;
 }
 
-/* Individual product card */
-.product-card-grid .slds-col {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Ensure items are spaced within the card */
-    align-items: center; /* Center align content within the card */
-    text-align: center; /* Center-align text */
-    height: 100%; /* Make all cards equal height */
-    padding: 1rem; /* Add padding to the card */
+.product-card-grid .image-container img {
+	max-height: 275px;
 }
 
-/* Product image */
-.product-card-grid .slds-col img {
-    max-height: 150px; /* Ensure images are uniform in size */
-    object-fit: contain; /* Scale images without distortion */
-    margin-bottom: 1rem; /* Add spacing below the image */
+.product-card-grid .image-container h3 {
+	font-size: 20px;
 }
 
-/* Product name */
-.product-card-grid .slds-col h2,
-.product-card-grid .slds-col .product-name {
-    margin-bottom: 0.5rem;
-    font-size: 1rem; /* Adjust font size for consistency */
-    font-weight: bold;
-    min-height: 2rem; /* Ensure names are aligned across cards */
-}
-
-/* Product pricing or description */
-.product-card-grid .slds-col .product-pricing {
-    margin-bottom: 1rem;
-    font-size: 1rem;
-    color: var(--ATS-Brand-Black, #000);
-    min-height: 2rem; /* Ensure alignment of pricing text */
-}
-
-/* View product button */
-.product-card-grid .slds-col button {
-    margin-top: auto; /* Push the button to the bottom */
-    background-color: var(--ATS-Brand-Green, #008000);
-    color: #fff;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    text-transform: uppercase;
-    border: none;
-    cursor: pointer;
-}
-
-.product-card-grid .slds-col button:hover {
-    background-color: #006400; /* Slightly darker on hover */
-}
 
 
 /* Product detail page */
