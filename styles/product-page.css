@@ -1,49 +1,59 @@
-/* Align items in the grid */
+/* Product grid container */
 .product-card-grid .slds-wrap {
-    display: flex; /* Ensure flexbox layout for alignment */
-    flex-wrap: wrap; /* Allow wrapping of items */
-    gap: 1rem; /* Add spacing between grid items */
-    align-items: stretch; /* Align items to stretch equally */
-    justify-content: space-between; /* Distribute space between items */
+    align-items: stretch; /* Stretch items to equal height */
+    gap: 1.5rem; /* Add consistent spacing between cards */
+    justify-content: space-between; /* Distribute items evenly */
 }
 
-/* Style individual product cards */
+/* Individual product card */
 .product-card-grid .slds-col {
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Ensure equal spacing within the card */
-    text-align: center; /* Center-align content */
-    height: 100%; /* Ensure all cards have the same height */
+    justify-content: space-between; /* Ensure items are spaced within the card */
+    align-items: center; /* Center align content within the card */
+    text-align: center; /* Center-align text */
+    height: 100%; /* Make all cards equal height */
+    padding: 1rem; /* Add padding to the card */
 }
 
-/* Adjust product image */
+/* Product image */
 .product-card-grid .slds-col img {
-    max-height: 150px; /* Set consistent image height */
-    object-fit: contain; /* Ensure image fits without distortion */
-    margin-bottom: 0.5rem; /* Add spacing below image */
+    max-height: 150px; /* Ensure images are uniform in size */
+    object-fit: contain; /* Scale images without distortion */
+    margin-bottom: 1rem; /* Add spacing below the image */
 }
 
 /* Product name */
-.product-card-grid .slds-col h2, 
+.product-card-grid .slds-col h2,
 .product-card-grid .slds-col .product-name {
-    margin-bottom: 0.5rem; /* Add spacing below name */
+    margin-bottom: 0.5rem;
+    font-size: 1rem; /* Adjust font size for consistency */
     font-weight: bold;
-    min-height: 3rem; /* Ensure alignment even for wrapped names */
+    min-height: 2rem; /* Ensure names are aligned across cards */
 }
 
-/* Pricing or action text */
+/* Product pricing or description */
 .product-card-grid .slds-col .product-pricing {
     margin-bottom: 1rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: var(--ATS-Brand-Black, #000);
+    min-height: 2rem; /* Ensure alignment of pricing text */
 }
 
 /* View product button */
 .product-card-grid .slds-col button {
     margin-top: auto; /* Push the button to the bottom */
-    padding: 0.5rem 1rem;
+    background-color: var(--ATS-Brand-Green, #008000);
+    color: #fff;
     font-size: 1rem;
+    padding: 0.5rem 1rem;
     text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card-grid .slds-col button:hover {
+    background-color: #006400; /* Slightly darker on hover */
 }
 
 
