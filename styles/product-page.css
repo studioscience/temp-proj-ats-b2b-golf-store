@@ -1,6 +1,13 @@
 /* Product grid */
-.product-card-grid .slds-wrap {
+/* .product-card-grid .slds-wrap {
 	align-items: flex-end;
+} */
+
+.lwc-7s0fh5rflqi.slds-size_12-of-12.product-container {
+	display: flex;
+    flex-direction: column;
+    min-height: 460px;
+    justify-content: space-between;
 }
 
 .product-card-grid .image-container img {
