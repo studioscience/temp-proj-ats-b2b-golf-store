@@ -42,8 +42,8 @@
 	margin-top: -6px;
 }
 
-/* Featured Products */
-dxp_data_provider-repeater-item.lwc-* {
+/* Featured Products! */
+dxp_data_provider-repeater-item {
 	display: flex;
     flex-direction: column;
     height: 100%;
