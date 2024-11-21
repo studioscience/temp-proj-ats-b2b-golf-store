@@ -3,6 +3,17 @@
 	display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+@media screen and (max-width: 768px) {
+	.product-card-grid .slds-wrap {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.product-card-grid .slds-wrap {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}	
+}
 
 .product-card-grid .slds-wrap .slds-var-p-around_large {
 	width: 100%;
