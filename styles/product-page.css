@@ -51,3 +51,10 @@
 .product-pricing-details {
 	justify-content: flex-start;
 }
+.wishlist-container {
+	height: auto;
+	width: auto;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
