@@ -76,6 +76,11 @@
   color: #ffffff;
 }
 
+.social-icons p {
+	display: flex;
+	gap: 15px;
+}
+
 .product-card-grid.featured-products .slds-wrap {
 	display: flex;
 }
