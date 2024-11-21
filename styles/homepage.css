@@ -75,3 +75,7 @@
 .footer-subscribe input[type="email"]::placeholder {
   color: #ffffff;
 }
+
+.product-card-grid.featured-products .slds-wrap {
+	display: flex;
+}
