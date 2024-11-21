@@ -43,7 +43,7 @@
 }
 
 /* Featured Products */
-.lwc-5hg9620qoj3-host {
+dxp_data_provider-repeater-item.lwc-* {
 	display: flex;
     flex-direction: column;
     height: 100%;
