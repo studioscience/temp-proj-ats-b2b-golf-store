@@ -51,10 +51,11 @@
 .product-pricing-details {
 	justify-content: flex-start;
 }
-.slds-var-p-around_large.lwc-7s0fh5rflqi {
+
+.product-container .slds-var-p-around_large.lwc-7s0fh5rflqi {
 	position: relative;
 }
-.wishlist-container[lwc-6l6efknr81i] {
+.product-container .wishlist-container[lwc-6l6efknr81i] {
 	height: auto;
 	width: auto;
 	position: absolute;
