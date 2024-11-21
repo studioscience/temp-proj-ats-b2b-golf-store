@@ -1,13 +1,21 @@
 /* Product grid */
-/* .product-card-grid .slds-wrap {
-	align-items: flex-end;
-} */
+.product-card-grid .slds-wrap {
+	display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.product-card-grid .slds-wrap .slds-var-p-around_large {
+	width: 100%;
+	height: 100%;
+}
+
 
 .lwc-7s0fh5rflqi.slds-size_12-of-12.product-container {
 	display: flex;
     flex-direction: column;
     min-height: 460px;
     justify-content: space-between;
+	height: 100%;
 }
 
 .product-card-grid .image-container img {
