@@ -85,6 +85,6 @@
 	display: flex;
 }
 
-.product-card-grid.featured-products c-x-studio_list-view-pricing-display.lwc-5up5gege3s7.component-wrapper-spacer, .product-card-grid.featured-products c-x-studio_list-view-pricing-display.lwc-68dl7nb8jtn.component-wrapper-spacer {
+.product-card-grid.featured-products c-x-studio_list-view-pricing-display {
 	margin-bottom: 0;
 }
