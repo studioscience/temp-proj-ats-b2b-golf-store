@@ -1,3 +1,11 @@
+/* Mobile Nav */
+.mobile-logo-icons-row .mobile-nav-icon svg{
+	width: 16px;
+}
+.mobile-logo-icons-row button {
+	padding: 0;
+}
+
 /* Homepage tables */
 .order-list-table .list-container,
 .quotes-list-table .list-container,
