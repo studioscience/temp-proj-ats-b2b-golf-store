@@ -8,6 +8,7 @@
 
 .mobile-logo-icons-row lightning-icon.lwc-44m8jpc5qct.chevron-right.slds-current-color.slds-p-left_x-small.slds-is-absolute.slds-icon-utility-chevronright.slds-icon_container {
 	top: 0;
+	right: 0;
 }
 
 .mobile-logo-icons-row ul.lwc-44m8jpc5qct.slide-down.slds-list_vertical.slds-has-flexi-truncate {
@@ -16,6 +17,9 @@
 
 .mobile-logo-icons-row a.lwc-44m8jpc5qct.slds-p-vertical_small.slds-p-horizontal_large.slds-truncate {
 	padding: 0;
+	display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 /* Homepage tables */
