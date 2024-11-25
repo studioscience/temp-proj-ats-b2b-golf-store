@@ -6,6 +6,10 @@
 	padding: 0;
 }
 
+.mobile-logo-icons-row lightning-icon.lwc-44m8jpc5qct.chevron-right.slds-current-color.slds-p-left_x-small.slds-is-absolute.slds-icon-utility-chevronright.slds-icon_container {
+	top: 0;
+}
+
 /* Homepage tables */
 .order-list-table .list-container,
 .quotes-list-table .list-container,
