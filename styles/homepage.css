@@ -10,6 +10,10 @@
 	top: 0;
 }
 
+.mobile-logo-icons-row ul.lwc-44m8jpc5qct.slide-down.slds-list_vertical.slds-has-flexi-truncate {
+	padding: 0 20px;
+}
+
 /* Homepage tables */
 .order-list-table .list-container,
 .quotes-list-table .list-container,
