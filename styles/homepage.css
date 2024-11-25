@@ -12,14 +12,14 @@
 }
 
 .mobile-logo-icons-row ul.lwc-44m8jpc5qct.slide-down.slds-list_vertical.slds-has-flexi-truncate {
-	padding: 0 20px;
+	padding: 0 30px;
+	display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .mobile-logo-icons-row a.lwc-44m8jpc5qct.slds-p-vertical_small.slds-p-horizontal_large.slds-truncate {
 	padding: 0;
-	display: flex;
-    flex-direction: column;
-    gap: 15px;
 }
 
 /* Homepage tables */
