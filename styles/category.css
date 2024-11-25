@@ -10,6 +10,10 @@
 	background-position: center;
 }
 
+.category-banner .lwc-5tovugjfehk.slds-col.dxp-block-two-column-cell.slds-size_1-of-3 {
+	width: 45%;
+}
+
 .category-banner-paragraph {
 	padding-right: 180px;
 }
