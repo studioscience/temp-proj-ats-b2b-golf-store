@@ -6,3 +6,8 @@
 .my-account-box .slds-m-around_medium lightning-card .slds-card__body {
     padding: 0 20px;
 }
+
+.my-account-box slds-card {
+    border: none;
+    box-shadow: none;
+}
