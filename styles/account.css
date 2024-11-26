@@ -7,7 +7,7 @@
     padding: 0 20px;
 }
 
-.my-account-box slds-card {
+.my-account-box .slds-card {
     border: none;
     box-shadow: none;
 }
