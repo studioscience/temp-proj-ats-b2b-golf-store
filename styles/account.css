@@ -2,3 +2,7 @@
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+
+.my-account-box {
+    padding: 0 20px;
+}
