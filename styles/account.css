@@ -3,6 +3,6 @@
     -webkit-box-shadow: none;
 }
 
-.my-account-box {
+.my-account-box .slds-m-around_medium lightning-card .slds-card__body {
     padding: 0 20px;
 }
