@@ -19,3 +19,9 @@
 .my-account-box lightning-layout.card-header.slds-grid.slds-grid_align-spread.slds-grid_vertical-align-center lightning-layout-item:first-child {
     font-weight: 600;
 }
+
+.my-account-box lightning-layout.card-header.slds-grid.slds-grid_align-spread.slds-grid_vertical-align-center button.slds-button {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: gray;
+}
