@@ -34,3 +34,7 @@
 .my-account-box .slds-p-around_medium lightning-record-view-form div, .my-account-box .slds-p-around_medium .slds-form-element__static {
     font-size: 16px;
 }
+
+.my-account-box lightning-output-field.slds-form-element.slds-form-element_horizontal {
+    display: inline-table;
+}
