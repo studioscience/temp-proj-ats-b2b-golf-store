@@ -24,7 +24,7 @@
 
 /* Industry Grid/Row */
 .industry-grid .columns-content {
-    display: grid;
+    display: grid !important;
 	gap: 16px;
     grid-template-columns: repeat(3, minmax(0, 1fr));
 }
