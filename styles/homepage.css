@@ -54,6 +54,9 @@
 	.industry-grid dxp-block-flexible-container {
 		height: 100% !important;
 	}
+	.industry-grid dxp_data_provider-image-data-provider {
+		height: 100% !important;
+	}
 }
 
 /* Homepage tables */
