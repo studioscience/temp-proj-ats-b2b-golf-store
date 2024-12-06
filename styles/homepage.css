@@ -23,13 +23,19 @@
 }
 
 /* Industry Grid/Row */
-@media screen and (min-width: 768px) {
-	.industry-grid .columns-content {
-		display: grid !important;
-		gap: 16px;
-		grid-template-columns: repeat(3, minmax(0, 1fr));
-	}
 
+.industry-grid .columns-content {
+	display: grid !important;
+	gap: 16px;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+@media screen and (max-width: 767px) {
+	.industry-grid .columns-content {
+		grid-template-columns: repeat(1, minmax(0, 1fr));
+	}
+}
+
+@media screen and (min-width: 768px) {
 	.industry-grid .columns-content community_layout-column-spacer {
 		display: none;
 	}
