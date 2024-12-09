@@ -4,3 +4,36 @@
 	justify-content: space-between;
 }
 
+.page-container2 {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .page-container2 {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .page-container2 {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-container2 {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .page-container2 {
+        max-width: 1200px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .page-container2 {
+        max-width: 1200px;
+    }
+}
