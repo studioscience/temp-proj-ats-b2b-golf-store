@@ -166,3 +166,17 @@
 .footer-wrapper .footer-link-list li {
 	padding: 0;
 }
+/* Styling for the guest user section */
+.guest-user-section {
+  width: 300px; /* Match the width of the sign-in section */
+  padding: 20px; /* Adjust padding for consistent spacing */
+  background-color: white; /* Match background color */
+  border: 1px solid #ccc; /* Optional: Add a border for consistency */
+  border-radius: 8px; /* Optional: Match border radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Match shadow style */
+}
+
+/* Optional: Align the text */
+.guest-user-section h2, .guest-user-section ul {
+  text-align: center;
+}
