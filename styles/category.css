@@ -40,7 +40,7 @@
 	}
 } */
 @media screen and (max-width: 1024px) {
-	.slds-col.dxp-block-two-column-cell.slds-size_2-of-3 {
+	.category-banner .slds-col.dxp-block-two-column-cell.slds-size_2-of-3 {
 		width: 100%;
 	}
 }
